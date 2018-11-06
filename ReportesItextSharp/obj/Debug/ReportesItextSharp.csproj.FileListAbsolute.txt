@@ -1,0 +1,44 @@
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\bin\Debug\ReportesItextSharp.exe.config
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\bin\Debug\ReportesItextSharp.exe
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\bin\Debug\ReportesItextSharp.pdb
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\obj\Debug\ReportesItextSharp.csprojResolveAssemblyReference.cache
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\obj\Debug\ReportesItextSharp.Form1.resources
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\obj\Debug\ReportesItextSharp.Properties.Resources.resources
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\obj\Debug\ReportesItextSharp.csproj.GenerateResource.Cache
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\obj\Debug\ReportesItextSharp.exe
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\obj\Debug\ReportesItextSharp.pdb
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\bin\Debug\MySql.Data.dll
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\bin\Debug\itextsharp.dll
+c:\users\sgomyose\documents\visual studio 2013\Projects\ReportesItextSharp\ReportesItextSharp\bin\Debug\itextsharp.xml
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\ReportesItextSharp.exe.config
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\ReportesItextSharp.exe
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\ReportesItextSharp.pdb
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\itextsharp.dll
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\itextsharp.xml
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.Form1.resources
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.Properties.Resources.resources
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.Reporte.resources
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.csproj.GenerateResource.Cache
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\RdlCompile.cache
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\RdlCompile.compiled
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.exe
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.pdb
+C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.csprojResolveAssemblyReference.cache
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.csprojAssemblyReference.cache
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.Form1.resources
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.Properties.Resources.resources
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.Reporte.resources
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.csproj.GenerateResource.cache
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.csproj.CoreCompileInputs.cache
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.exe
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.pdb
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\ReportesItextSharp.exe.config
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\ReportesItextSharp.exe
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\ReportesItextSharp.pdb
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\itextsharp.dll
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\itextsharp.xml
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.csproj.CopyComplete
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.GenerarHistorico.resources
