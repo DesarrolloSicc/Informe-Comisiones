@@ -46,9 +46,9 @@ namespace ReportesItextSharp
                         string nombre = Convert.ToString(row["NOMBRE"]);
                         string mail = Convert.ToString(row["Mails"]);
                         string SumaComi = Convert.ToString(row["SumaComi"]);
-                        
+                        string total = Convert.ToString(row["total"]);
 
-                        Document doc = new Document(PageSize.A4.Rotate(), 10, 10, 10, 10);
+                Document doc = new Document(PageSize.A4.Rotate(), 10, 10, 10, 10);
                         SaveFileDialog saveFileDialog1 = new SaveFileDialog();
                         //saveFileDialog1.InitialDirectory = @"C:";
                         //saveFileDialog1.Title = "Guardar Reporte";
@@ -81,7 +81,7 @@ namespace ReportesItextSharp
                             doc.Add(new Paragraph("De:                                                   Comisiones Sicc <gerencia.personas@sicc.cl>"));
                             doc.Add(new Paragraph(envio));
                             doc.Add(new Paragraph("Para:                                                "+mail));
-                            doc.Add(new Paragraph("Asunto:                                            Anexo detalle de Comisiones Agosto 2018"));
+                            doc.Add(new Paragraph("Asunto:                                            Anexo detalle de Comisiones Septiembre 2018"));
                             doc.Add(new Paragraph("            "));
                             doc.Add(new Paragraph("Estimado(a):  "+nombre));
                             doc.Add(new Paragraph("            "));
@@ -94,7 +94,7 @@ namespace ReportesItextSharp
                             doc.Add(new Paragraph("                       "));
                             GenerarDocumento(doc);
                             doc.Add(new Paragraph("                       "));
-                            doc.Add(new Paragraph("                                                                                         Total Comisiones: "+SumaComi));
+                            doc.Add(new Paragraph("                                                                                         Total Comisiones: "+ total));
                             doc.Add(new Paragraph("                       "));
                             doc.Add(new Paragraph("Declaro recibir conforme el presente anexo, haber revisado sus detalles y resultados.Autorizo en este acto el envío de esta información a mi dirección e.mail, entregada a Recursos Humanos."));
                             doc.Add(new Paragraph("                       "));
@@ -200,7 +200,7 @@ namespace ReportesItextSharp
 
 
                 //Cuerpo del Mensaje
-                mmsg.Body = "Estimado/a, <br>Adjunto comisiones correspondientes al mes de Agosto.<br><br> Saludos.";
+                mmsg.Body = "Estimado/a, <br>Adjunto comisiones correspondientes al mes de Septiembre.<br><br> Saludos.";
                 mmsg.BodyEncoding = System.Text.Encoding.UTF8;
                 mmsg.IsBodyHtml = true; //Si no queremos que se envíe como HTML
                // mmsg.CC.Add("rebeca.salgado@sicc.cl");
@@ -216,7 +216,7 @@ namespace ReportesItextSharp
                 System.Net.Mail.SmtpClient cliente = new System.Net.Mail.SmtpClient();
 
                 cliente.UseDefaultCredentials = false;
-                cliente.Credentials = new NetworkCredential("javiera.cotapos@sicc.cl", "Sicc.2030");
+                cliente.Credentials = new NetworkCredential("javiera.cotapos@sicc.cl", "Sicc.2031");
 
                 cliente.Port = 587;
                 cliente.EnableSsl = true;
@@ -293,6 +293,13 @@ namespace ReportesItextSharp
         private void cb_periodo_SelectedIndexChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+           
+            Masivo masivo = new Masivo();
+            masivo.Show();
         }
     }
 

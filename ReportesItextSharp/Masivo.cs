@@ -16,5 +16,28 @@ namespace ReportesItextSharp
         {
             InitializeComponent();
         }
+
+        private void Masivo_Load(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+      
     }
 }

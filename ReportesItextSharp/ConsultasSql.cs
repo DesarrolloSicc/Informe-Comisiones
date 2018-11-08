@@ -19,7 +19,7 @@ namespace ReportesItextSharp
         {
 
             cadena.Open();
-            SqlCommand cmd = new SqlCommand(string.Format("select  Distinct CARTERA,META,RECUPERO,Format(Round(([POR_CUMPLIMIENTO] * 100), 2, 0), '') + '%' as POR_CUMPLIMIENTO,Format(Round(CAST(FACTOR AS FLOAT), 2, 0), '') + '%' AS FACTOR,Format(Round(CAST([VENTA] AS FLOAT), 2, 0), '#,#.#') AS VENTA,Format(Round(CAST(COMISION AS FLOAT), 2, 0), '#,#.#') AS COMISION from[ReporteriaTI].[dbo].[InformeComisiones1] where RUT = {0} and PERIODO = '{1}'; ", Rut,Periodo), cadena);
+            SqlCommand cmd = new SqlCommand(string.Format("select  Distinct CARTERA,META,RECUPERO,Format(Round(([POR_CUMPLIMIENTO] * 100), 2, 0), '') + '%' as POR_CUMPLIMIENTO,Format(Round(CAST(FACTOR AS FLOAT), 2, 0), '') + '%' AS FACTOR,Format(Round(CAST([VENTA] AS FLOAT), 2, 0), '#,#.#') AS VENTA,Format(Round(CAST(COMISION AS FLOAT), 2, 0), '#,#.#') AS COMISION,Format(Round(CAST(OTRO AS FLOAT), 2, 0), '#,#.#') AS OTRO  from[ReporteriaTI].[dbo].[InformeComisiones1] where RUT = {0} and PERIODO = '{1}'; ", Rut,Periodo), cadena);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             ds = new DataSet();
             cadena.Close();
@@ -34,7 +34,7 @@ namespace ReportesItextSharp
 
             cadena.Open();
             DataTable dt = new DataTable();
-            SqlCommand cmd = new SqlCommand(string.Format("select nombre,Mails,  Format(Sum(CAST([COMISION] as float)),'#,#.#') as SumaComi  from [ReporteriaTI].[dbo].[InformeComisiones1] where RUT = {0} and Periodo = {1} group by nombre,Mails;", Rut, Periodo), cadena);
+            SqlCommand cmd = new SqlCommand(string.Format("select nombre,Mails,  Format(Sum(CAST(([COMISION]) as float)),'#,#.#') as SumaComi, Format(CAST((sum(COMISION)+sum(OTRO)) as float),'#,#.#') as total, sum(OTRO) as otro from [ReporteriaTI].[dbo].[InformeComisiones1] where RUT = {0} and Periodo = {1} group by nombre,Mails; ", Rut, Periodo), cadena);
             cmd.Parameters.AddWithValue("@Rut", Rut);
             SqlDataAdapter adap = new SqlDataAdapter(cmd);
             cadena.Close();

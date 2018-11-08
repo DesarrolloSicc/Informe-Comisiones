@@ -42,3 +42,4 @@ C:\Users\rebeca.salgado\Documents\Informe Comisiones\ReportesItextSharp-master\R
 \\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\bin\Debug\Microsoft.ReportViewer.WinForms.xml
 \\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.csproj.CopyComplete
 \\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.GenerarHistorico.resources
+\\Docs\PUBLICA\Rebeca Salgado\otro pc\Informe Comisiones\ReportesItextSharp-master\ReportesItextSharp\obj\Debug\ReportesItextSharp.Masivo.resources

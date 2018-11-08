@@ -40,6 +40,7 @@
             this.cb_periodo = new System.Windows.Forms.ComboBox();
             this.reporteriaTIDataSet11 = new ReportesItextSharp.ReporteriaTIDataSet1();
             this.reporteriaTIDataSet11BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.reporteriaTIDataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.reporteriaTIDataSet11BindingSource)).BeginInit();
@@ -57,7 +58,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(59, 371);
+            this.button2.Location = new System.Drawing.Point(25, 371);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(158, 23);
             this.button2.TabIndex = 1;
@@ -76,7 +77,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(361, 371);
+            this.button3.Location = new System.Drawing.Point(239, 371);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 23);
             this.button3.TabIndex = 5;
@@ -95,7 +96,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(671, 371);
+            this.button4.Location = new System.Drawing.Point(724, 371);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(148, 23);
             this.button4.TabIndex = 6;
@@ -140,11 +141,22 @@
             this.reporteriaTIDataSet11BindingSource.DataSource = this.reporteriaTIDataSet11;
             this.reporteriaTIDataSet11BindingSource.Position = 0;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(587, 371);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(113, 23);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "Ir a Reportes Masivos";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 406);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.cb_periodo);
             this.Controls.Add(this.txt_RutEjecutivo);
             this.Controls.Add(this.label2);
@@ -179,6 +191,7 @@
         private ReporteriaTIDataSet1 reporteriaTIDataSet11;
         private System.Windows.Forms.BindingSource reporteriaTIDataSet11BindingSource;
         private ReportesItextSharp.ReporteriaTIDataSet reporteriaTIDataSet1;
+        private System.Windows.Forms.Button button5;
     }
 }
 
